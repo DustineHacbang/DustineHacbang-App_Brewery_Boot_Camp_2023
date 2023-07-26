@@ -48,3 +48,15 @@ num_of_state = len(state_of_america)
 #"-1" will prevent the index error so you can pull the last item from the list
 print(state_of_america - 1)
 
+# ----------------------------------------------------------------------------
+
+#Nested Lists
+
+# dirty_dozen =["Starberries", "Spinach", "Kale", "Nectarines", "Apples",
+#                 "Grapes", "Peaches","Cherries", "Pears", "Tomatoes", "Celery", "Potatoes" ]
+
+fruits = ["Strabberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables =["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+#Nested List, a better way of originizing the data
+dirty_dozen =[fruits,vegetables]

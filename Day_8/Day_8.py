@@ -55,7 +55,7 @@ my_function(123)
 #Example
 
 def greet_with(name,location):
-    print(f'Hello {names}')
+    print(f'Hello {name}')
     print(f'What is it like {location}')
     
 greet_with("Jack","England")

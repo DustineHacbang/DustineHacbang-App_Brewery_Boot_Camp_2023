@@ -41,3 +41,21 @@ def format_name(f_name,l_name):
     return full_name
 
 print(format_name(input("What is your first name?")))
+
+###Doc STRING###
+
+#DocStings are just a way to document on the code and provides a little description when hovering over the funtion
+
+def format_name(f_name,l_name):
+
+    """Take a first and last name and format it
+    to return the tittle case version name"""
+
+    if f_name == "" or l_name == "":
+        return "You didn't provide valid inputs."
+    cap_f_name = f_name.title()
+    cap_l_name = l_name.title()
+    full_name = cap_f_name + " " + cap_l_name
+    return full_name
+
+print(format_name(input("What is your first name?")))

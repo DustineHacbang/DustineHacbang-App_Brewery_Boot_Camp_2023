@@ -53,6 +53,7 @@ sample_dictionary_list ={
 }
 
 # Example
+#Dictionary in a Dictionary
 travel_log ={
     "France":{
         "Cities_Visted":["Paris", "Lille", "Dijon"],
@@ -63,7 +64,7 @@ travel_log ={
         "total_visits": 20
     }
     }
-###NESTED DICTIONARY#####
+###NESTED DICTIONARY in a list#####
 travel_log =[
     {
         "country":"France",
@@ -73,7 +74,7 @@ travel_log =[
 
     {
         "country":"Germany",
-        "cities_Visted":["Los Angeles","New York","Santa Cruz"],
+        "cities_Visted":["Berlin","New York","Santa Cruz"],
         "total_visits": 20
     }
 ]

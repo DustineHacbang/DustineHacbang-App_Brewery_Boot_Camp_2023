@@ -1,0 +1,27 @@
+Debugging
+-Everyone create buggs
+-keep calm and think it through
+
+Steps of Debug.
+    1. Describe the problem
+
+    2 Reproduce the bug
+
+    3.PLay Computer
+
+    4. Fix the Errors
+
+    5. Print is your friend
+
+    6. Use Debugger
+
+Final Tips
+
+    7. Take a break
+
+    8. Ask a friend
+
+    9. Run you code often
+
+    10. Stackover flow or ChatGPT
+

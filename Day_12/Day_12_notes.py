@@ -24,7 +24,7 @@ def drink_potion(): #local scope for potion_strength is within the function
     print(potion_strength)
 
 drink_potion()  
-print(potion_strength) #this will not work because potion_strength is not defined outside of the function
+# print(potion_strength) #this will not work because potion_strength is not defined outside of the function
 
 #globa scope: variables defined outside of a function
 
